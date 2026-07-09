@@ -14,4 +14,4 @@ This folder contains processed outputs from the EcoCrop parameter-sensitivity an
 
 ## Notes
 
-The `raw/` subfolder may contain large files. These are useful for rerunning or auditing the sensitivity analysis, but they are not always necessary for the public GitHub repository if final tables and figures are provided.
+The `raw/` subfolder contain large files. Hence are not uploaded, while re-running the script they should be automatically generated in the local folder.
