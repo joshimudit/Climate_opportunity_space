@@ -11,6 +11,4 @@ Outputs are separated into:
 
 ## Notes
 
-- Final figures and small summary tables can be included in the repository.
-- Large intermediate outputs, exploratory plots, logs, and restricted site-level tables should not be included unless they are needed for reproducibility and are safe to share.
-- Archaeobotanical outputs should only be included if they do not expose restricted site-level information.
+- Large intermediate outputs, exploratory plots, logs, and restricted site-level tables are not included unless they are needed for reproducibility and are safe to share.
