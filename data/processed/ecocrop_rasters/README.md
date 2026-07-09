@@ -41,8 +41,6 @@ Here, `t0` is the present-day timestep and larger timestep values represent olde
 
 ## Notes
 
-- These are continuous suitability rasters, not thresholded binary rasters.
-- Thresholded high-suitability rasters are not necessary because they can be recreated from the continuous rasters.
 - These rasters are used by:
   - `04_threshold_metrics.R`
   - `07_arch_evaluation.R`
