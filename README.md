@@ -145,8 +145,14 @@ scripts/                            # reproducible analysis workflow
 
 ## Contact
 
-Mudit Joshi  
+### Mudit Joshi  
+**Primary contact**  
 Section for Ecoinformatics & Biodiversity  
 Aarhus University  
 mjoshi@bio.au.dk
 
+### Alejandro Ordonez  
+**Supervisor**  
+Section for Ecoinformatics & Biodiversity  
+Aarhus University  
+alejandro.ordonez@bio.au.dk
