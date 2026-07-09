@@ -40,7 +40,7 @@ These rasters are generated from crop physiological thresholds and palaeoclimate
 
 ## Representative output
 
-The crop-specific suitability figures summarize how modelled high-suitability area changes through the Holocene. One representative output is shown below.
+The crop-specific suitability figures summarize how modelled high-suitability area changes through the Holocene. One representative output is shown below (Crop: Sorghum Bicolor).
 
 <p align="center">
   <img src="outputs/figures/Fig1_Sorghum_final.png" alt="Representative sorghum climatic suitability output" width="850">
