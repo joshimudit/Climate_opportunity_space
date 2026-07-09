@@ -1,0 +1,4 @@
+"crop","archaeo_mean","potential_mean","mean_difference","ci_low","ci_high","p_value","p_value_3dp"
+"Sorghum",0.744,0.528,0.215,0.062,0.347,0.0418463054792703,"0.042"
+"Pearl millet",0.601,0.484,0.116,-0.068,0.274,0.471022443020741,"0.471"
+"Finger millet",0.339,0.201,0.138,-0.185,0.496,0.268333336863093,"0.268"

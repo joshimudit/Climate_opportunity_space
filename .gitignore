@@ -1,0 +1,101 @@
+# ============================================================
+# .gitignore for Climate_opportunity_space
+# ============================================================
+
+# ------------------------------------------------------------
+# R / RStudio session files
+# ------------------------------------------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj.user
+
+# ------------------------------------------------------------
+# Operating-system and temporary files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.temp
+*.bak
+
+# ------------------------------------------------------------
+# Local repository checks / scratch files
+# ------------------------------------------------------------
+repo_tree.txt
+scratch/
+old/
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# Archive folders
+# ------------------------------------------------------------
+archive/
+archive_old/
+old_scripts/
+old_outputs/
+
+# ------------------------------------------------------------
+# Restricted / unpublished data
+# ------------------------------------------------------------
+# Raw archaeobotanical data are not publicly released.
+data/restricted/
+
+# Processed archaeobotanical site-level files may contain restricted
+# site names, coordinates, or record-level information.
+data/processed/archaeobotanical/
+
+# ------------------------------------------------------------
+# External raw climate data
+# ------------------------------------------------------------
+# CHELSA-TraCE21k raw climate rasters are external large data and
+# should be downloaded from the CHELSA data portal, not stored here.
+data/raw/climate/
+data/raw/CHELSA/
+data/raw/CHELSA-TraCE21k/
+data/raw/chelsa_trace21k/
+data/raw/trace21k/
+
+# Processed monthly climate raster stacks can be regenerated and may
+# be too large for the public repository.
+data/processed/climate/
+
+# ------------------------------------------------------------
+# Large intermediate / raw Monte Carlo outputs
+# ------------------------------------------------------------
+# Keep final parameter-sensitivity tables/figures, but ignore raw
+# Monte Carlo objects unless you explicitly decide to publish them.
+data/processed/parameter_sensitivity/raw/
+
+# ------------------------------------------------------------
+# Generated logs and diagnostic folders
+# ------------------------------------------------------------
+outputs/logs/
+outputs/qc_maps/
+outputs/maps/
+outputs/rasters/
+*.log
+
+# ------------------------------------------------------------
+# Compressed local backups
+# ------------------------------------------------------------
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# ------------------------------------------------------------
+# IMPORTANT: do NOT ignore EcoCrop suitability rasters
+# ------------------------------------------------------------
+# The following folder is intentionally NOT ignored because these rasters
+# are a main generated data product and individual files are small:
+#
+# data/processed/ecocrop_rasters/
+#
+# Do not add a global *.tif ignore rule unless you also explicitly
+# unignore the EcoCrop raster folder.
