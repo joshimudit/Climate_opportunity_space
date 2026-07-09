@@ -1,4 +1,4 @@
-# Climate\_Opportunity\_Space
+# Climate_Opportunity_Space
 
 This repository contains the code, processed outputs, and generated data products for reconstructing the **Holocene climatic opportunity space** of three African dryland cereals: **sorghum**, **pearl millet**, and **finger millet**.
 
@@ -9,7 +9,7 @@ The project asks where climate could have supported cultivation across Africa fr
 The main generated data product is the set of continuous EcoCrop climatic suitability rasters:
 
 ```text
-data/processed/ecocrop\_rasters/
+data/processed/ecocrop_rasters/
 ├── SG/   sorghum
 ├── PM/   pearl millet
 └── FM/   finger millet
@@ -25,15 +25,15 @@ Each raster represents modelled climatic suitability for one crop and one 100-ye
 File names follow this structure:
 
 ```text
-<CROP>\_suit\_t<TIME>.tif
+<CROP>_suit_t<TIME>.tif
 ```
 
 For example:
 
 ```text
-SG\_suit\_t0.tif      # sorghum, present-day timestep
-SG\_suit\_t60.tif     # sorghum, 6 ka BP
-SG\_suit\_t120.tif    # sorghum, 12 ka BP
+SG_suit_t0.tif      # sorghum, present-day timestep
+SG_suit_t60.tif     # sorghum, 6 ka BP
+SG_suit_t120.tif    # sorghum, 12 ka BP
 ```
 
 These rasters are generated from crop physiological thresholds and palaeoclimate data. They should be interpreted as **modelled climatic opportunity surfaces**, not as archaeological crop occurrence maps or yield predictions.
@@ -42,12 +42,14 @@ These rasters are generated from crop physiological thresholds and palaeoclimate
 
 The crop-specific suitability figures summarize how modelled high-suitability area changes through the Holocene. One representative output is shown below.
 
-!\[Representative sorghum climatic suitability output](outputs/figures/Fig1\_Sorghum\_final.png)
+<p align="center">
+  <img src="outputs/figures/Fig1_Sorghum_final.png" alt="Representative sorghum climatic suitability output" width="850">
+</p>
 
 ## Repository structure
 
 ```text
-Climate\_Opportunity\_Space/
+Climate_Opportunity_Space/
 ├── scripts/      R scripts for the full analysis workflow
 ├── data/         small input files, processed tables, and generated raster data products
 ├── outputs/      final figures and tables
@@ -77,14 +79,14 @@ The main scripts are ordered as follows:
 
 |Script|Purpose|
 |-|-|
-|`01\_climate\_data\_prep.R`|Prepares palaeoclimate inputs for Africa.|
-|`02\_ecocrop\_model\_runs.R`|Runs EcoCrop suitability models and generates crop suitability rasters.|
-|`03\_parameter\_sensitivity.R`|Tests sensitivity to crop physiological parameter uncertainty.|
-|`04\_threshold\_metrics.R`|Recalculates area-weighted suitable-area metrics from continuous rasters.|
-|`05\_gam\_analysis.R`|Runs corrected climate-driver GAM analysis using `prop\_0.8`.|
-|`06\_threshold\_sensitivity.R`|Tests how climate sensitivity changes across suitability cutoffs.|
-|`07\_arch\_evaluation.R`|Compares modelled suitability with restricted archaeobotanical evidence.|
-|`08\_opportunity\_space\_figures.R`|Generates opportunity-space maps and summary figures.|
+|`01_climate_data_prep.R`|Prepares palaeoclimate inputs for Africa.|
+|`02_ecocrop_model_runs.R`|Runs EcoCrop suitability models and generates crop suitability rasters.|
+|`03_parameter_sensitivity.R`|Tests sensitivity to crop physiological parameter uncertainty.|
+|`04_threshold_metrics.R`|Recalculates area-weighted suitable-area metrics from continuous rasters.|
+|`05_gam_analysis.R`|Runs corrected climate-driver GAM analysis using `prop_0.8`.|
+|`06_threshold_sensitivity.R`|Tests how climate sensitivity changes across suitability cutoffs.|
+|`07_arch_evaluation.R`|Compares modelled suitability with restricted archaeobotanical evidence.|
+|`08_opportunity_space_figures.R`|Generates opportunity-space maps and summary figures.|
 
 More detail is provided in `scripts/README.md`.
 
@@ -120,7 +122,7 @@ The repository contains scripts and processed outputs derived from these data, b
 
 ### Archaeobotanical data
 
-The raw archaeobotanical dataset used in `07\_arch\_evaluation.R` is not included in this repository because it has not yet been openly published/licensed. The dataset contains site-level crop occurrence information, including location and chronological information.
+The raw archaeobotanical dataset used in `07_arch_evaluation.R` is not included in this repository because it has not yet been openly published/licensed. The dataset contains site-level crop occurrence information, including location and chronological information.
 
 The data can be made available upon reasonable request to the corresponding author. Exact rerunning of the archaeobotanical evaluation requires access to this restricted input file.
 
@@ -130,12 +132,12 @@ The repository is organized so that the main workflow can be followed from scrip
 
 * raw CHELSA-TraCE21k climate data must be downloaded externally;
 * restricted archaeobotanical data are available only upon request;
-* large generated raster products may be included in `data/processed/ecocrop\_rasters/` as the main data product.
+* large generated raster products may be included in `data/processed/ecocrop_rasters/` as the main data product.
 
 For most users, the easiest entry points are:
 
 ```text
-data/processed/ecocrop\_rasters/     # main modelled suitability rasters
+data/processed/ecocrop_rasters/     # main modelled suitability rasters
 outputs/figures/                    # final figures
 outputs/tables/                     # final summary tables
 scripts/                            # reproducible analysis workflow
@@ -144,7 +146,7 @@ scripts/                            # reproducible analysis workflow
 ## Contact
 
 Mudit Joshi  
-Section for Ecoinformatics \& Biodiversity  
+Section for Ecoinformatics & Biodiversity  
 Aarhus University  
 mjoshi@bio.au.dk
 
