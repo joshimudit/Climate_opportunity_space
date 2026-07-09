@@ -15,8 +15,3 @@ This folder contains final result tables and selected supplementary tables.
 | `arch_effects.csv` | Archaeobotanical model-data effect-size summary. |
 | `archeobotanical_evaluation.xlsx` | Combined archaeobotanical evaluation workbook. |
 
-## Notes
-
-- Aggregate archaeobotanical tables can be included if they do not expose restricted site-level information.
-- Site-level archaeobotanical tables with coordinates, site names, or unpublished record-level data should not be uploaded unless the dataset has been cleared for release.
-- File names can be harmonized later for final submission.
